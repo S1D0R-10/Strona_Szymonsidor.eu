@@ -1,160 +1,225 @@
 <!DOCTYPE html>
-<html  >
+<html lang="pl">
+
 <head>
-  <!-- Site made with Mobirise Website Builder v5.6.8, https://mobirise.com -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v5.6.8, mobirise.com">
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:image:src" content="">
-  <meta property="og:image" content="">
-  <meta name="twitter:title" content="Home">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/mbr.png" type="image/x-icon">
-  <meta name="description" content="">
-  
-  
-  <title>Home</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/parallax/jarallax.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
-  
-  
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemia Sprawdzian :)</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff000069;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #be47b4ce;
+            padding: 4em;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 2em;
+            font-weight: bold; 
+        }
+
+        section {
+            padding: 2em;
+            margin: 1em;
+            border: 3px solid #ddd;
+            border-radius: 10px;
+        }
+
+        #yessir {
+            text-decoration: none;
+            color: black;
+        }
+
+
+        
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        
+            const navLinks = document.querySelectorAll('nav a');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 50,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
 </head>
+
 <body>
-  
-  <section data-bs-version="5.1" class="menu menu1 cid-t4YcPz2jKN" once="menu" id="menu1-1">
+
     
 
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-        <div class="container">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="index.html">
-                        <img src="assets/images/mbr.png" alt="" style="height: 4.3rem;">
-                    </a>
-                </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black text-primary display-7" href="index.html">Gang Rodrigueza</a></span>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-7" href="page9.html">Dołącz do Gangu</a>
-                    </li><li class="nav-item"><a class="nav-link link text-black display-7" href="page2.html">Kim jesteśmy ?</a></li><li class="nav-item"><a class="nav-link link text-black display-7" href="page6.html"><span class="mobi-mbri mobi-mbri-cart-full mbr-iconfont mbr-iconfont-btn"></span>Sklep</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-7" href="page5.html">Discord</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-7" href="page8.html">Socials</a></li></ul>
-                <div class="icons-menu">
-                    <a class="iconfont-wrapper" href="http://www.instagram.com/fp.gangrodrigueza/">
-                        <span class="p-2 mbr-iconfont socicon-instagram socicon"></span>
-                    </a>
-                    
-                    
-                    
-                </div>
-                
-            </div>
-        </div>
+    <header>
+        <h1>Sprawdzian Chemia :)</h1>
+    </header>
+
+    <nav>
+        <a href="#Atom">Co to jest atom i jak jest zbudowany?</a>
+        <a href="#LiczbyAtomowe">Liczba i masa atomowa pierwiastka</a>
+        <a href="#ChemiaZadania">Masa Atomowa</a>
+        <a href="#Izotopy">Izotopy</a>
+        <a href="#MasaAtomowa">Masa Atomowa</a>
+        <a href="#PowlokiElektronowe">Powłoki Elektronowe</a>
+        <a href="#ZapisElektronowy">Zapis Elektronowy</a>
+        <a href="#PromienAtomowy">Promień Atomowy</a>
+        <a href="#EnergiaJonizacji">Energia Jonizacji</a>
+        <a href="#PodpowlokiElektronowe">Podpowłoki Elektronowe</a>
+        <a href="#KolejnoscObsadzania">Kolejność Obsadzania</a>
+        <a href="#LiczbaElektronow">Liczba Elektronów</a>
+        <a href="#POMIDOREK">Zdjecia</a>
+        <a href="#uklad">Uklad Pierwiastkow</a>
     </nav>
+
+    <section id="Atom">
+        <h2>Co to jest atom i jak jest zbudowany?</h2>
+        <p>Atom jest najmniejszą jednostką chemiczną, składającą się z jądra atomowego, w którego skład wchodzą protony (o naładowaniu dodatnim) i neutrony (o naładowaniu neutralnym), oraz otaczającej ją elektronowej chmury, w której krążą elektrony (o naładowaniu ujemnym).</p>
+    </section>
+
+
+<section id="LiczbyAtomowe">
+    <h2>O czym informuje liczba atomowa (Z) i masowa (A) pierwiastka?</h2>
+    <p>Liczba atomowa (Z) informuje o liczbie protonów w jądrze atomowym, natomiast liczba masowa (A) to suma protonów i neutronów w jądrze.</p>
 </section>
 
-<section data-bs-version="5.1" class="header18 cid-t4Ydffgvx6 mbr-fullscreen mbr-parallax-background" id="header18-2">
-
-    
-
-    
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(255, 255, 255);"></div>
-
-    <div class="align-center container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-9">
-                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>WITAMY NA GANGRODRIGUEZA.PL</strong></h1>
-                
-                <p class="mbr-text mbr-fonts-style mbr-white display-7">jest to Strona Gangu <strong>Rodrigueza</strong> w SP 27 Lublin</p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-success display-4" href="page9.html">Wirtualna Strona Gangu</a> <a class="btn btn-success display-4" href="https://strona-z-zadaniami.my.canva.site/">Strona z Zdaniami (BETA)</a></div>
-            </div>
-        </div>
-    </div>
+<section id="ChemiaZadania">
+    <h2>Obliczanie liczby masowej (A), atomowej (Z), liczby protonów (p+), elektronów (e-) i neutronów (n0) dla danego pierwiastka w oparciu o układ okresowy.</h2>
+    <p>A - liczba masowa, Z - liczba atomowa, p+ - liczba protonów (równa Z), e- - liczba elektronów (równa Z w atomie neutralnym), n0 - liczba neutronów (równa A - Z).</p>
 </section>
 
-<section data-bs-version="5.1" class="video2 cid-t6jwrPuZ2i" id="video2-1t">
-    
-    
-    <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(255, 255, 255);"></div>
-    <div class="container">
-        <div class="mbr-section-head">
-            <h4 class="mbr-section-title mbr-fonts-style mb-0 display-2"><strong>Gang Rodrigueza Reklama</strong></h4>
-            
-        </div>
-        <div class="row justify-content-center mt-4">
-            <div class="col-12 col-md-12 video-block">
-                <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/xHlVkCnvEF4" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
-                
-            </div>
-        </div>
-    </div>
+<section id="Izotopy">
+    <h2>Co to są izotopy?</h2>
+    <p>Izotopy to atomy tego samego pierwiastka, różniące się liczbą neutronów, co prowadzi do różnych mas atomowych.</p>
 </section>
 
-<section data-bs-version="5.1" class="header3 cid-t5bGhqqLol mbr-fullscreen mbr-parallax-background" id="header3-15">
+<section id="ChemiaZadaniaIzotopy">
+    <h2>Obliczanie liczby masowej (A), atomowej (Z), liczby protonów (p+), elektronów (e-) i neutronów (n0) dla podanych izotopów.</h2>
+    <p>Aby obliczyć liczby masową (A), atomową (Z), liczbę protonów (p+), elektronów (e-) i neutronów (n0) dla danego izotopu, można postępować zgodnie z poniższymi krokami:<br>
 
-    
-
-    
-    <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(255, 255, 255);"></div>
-
-    <div class="align-center container">
-        <div class="row justify-content-end">
-            <div class="col-12 col-lg-6">
-                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"></h1>
-                
-                <p class="mbr-text mbr-fonts-style display-7"></p>
-                
-            </div>
-        </div>
-    </div>
+        <br>Znajdź dane o izotopie:<br>
+        
+        <br>Liczba masowa (A) to suma protonów i neutronów w jądrze atomowym. Można ją znaleźć w tabeli izotopów danego pierwiastka.<br>
+        Liczba atomowa (Z) to liczba protonów w jądrze atomowym. Jest to również dostępne w tabeli izotopów.<br>
+        Oblicz liczbę neutronów (n0):<br>
+        
+        <br>Liczbę neutronów można obliczyć odejmując liczbę protonów od liczby masowej: n0 = A - Z.<br>
+        Oblicz liczbę elektronów (e-):<br>
+        
+        <br>W atomie neutralnym liczba elektronów jest równa liczbie protonów, więc e- = Z.<br>
+        Teraz mamy pełen zestaw danych dla danego izotopu.<br>
+        
+        <br>Przykład:<br>
+        Rozważmy izotop wodoru o nazwie deuter (D). Znane dane to:<br>
+        
+        <br>Liczba masowa (A) dla deuteru: 2.<br>
+        Liczba atomowa (Z) dla deuteru: 1.<br>
+        Obliczenia:<br>
+        
+        <br>n0 = A - Z = 2 - 1 = 1 (jeden neutron).<br>
+        e- = Z = 1 (jeden elektron).<br>
+        Podobne obliczenia można przeprowadzić dla innych izotopów, biorąc pod uwagę ich unikalne liczby masowe i atomowe.<br></p>
 </section>
 
-<section data-bs-version="5.1" class="content6 cid-t5bH1UKtG6" id="content6-16">
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-10">
-                <hr class="line">
-                <p class="mbr-text align-center mbr-fonts-style my-4 display-5">
-                    <em>Flaga Gangu Rodrigueza</em><br><em>Zaprojektowana Przez Kacpra P.</em><em><br></em></p>
-                <hr class="line">
-            </div>
-        </div>
-    </div>
+<section id="MasaAtomowa">
+    <h2>Obliczanie średniej mas atomowej (mat), masy cząsteczkowej i zawartości procentowej danego pierwiastka w cząsteczce (Zp).</h2>
+    <p>Średnia masa atomowa to średnia ważona mas atomowych izotopów danego pierwiastka. Masa cząsteczkowa to suma mas atomowych składających się na cząsteczkę. Zawartość procentowa to procentowy udział mas atomowych poszczególnych pierwiastków w danej cząsteczce.</p>
 </section>
 
-<section data-bs-version="5.1" class="footer7 cid-t4YiYo8odU" once="footers" id="footer7-9">
+<section id="PowlokiElektronowe">
+    <h2>Co to są powłoki elektronowe? Jak nazywamy powłoki elektronowe? Jak określić maksymalną liczbę elektronów w danej powłoce elektronowej?</h2>
+    <p>Powłoki elektronowe to warstwy, na których mogą znajdować się elektrony wokół jądra atomowego. Nazywane są K, L, M, N itd. Maksymalna liczba elektronów w danej powłoce wynosi 2n^2, gdzie n to numer powłoki.</p>
+</section>
 
-    
+<section id="ZapisElektronowy">
+    <h2>Zapisywanie powłokowej i podpowłokowej konfiguracji elektronowej atomów i jonów.</h2>
+    <p>Zapis elektronowej konfiguracji obejmuje rozmieszczenie elektronów w poszczególnych powłokach i podpowłokach, używając oznaczeń literowych (np. 1s² 2s² 2p⁶).</p>
+</section>
 
-    
+<section id="PromienAtomowy">
+    <h2>Jak zmienia się promień atomowy pierwiastków w układzie okresowym pierwiastków chemicznych?</h2>
+    <p>Promień atomowy maleje wzdłuż okresu (z lewej na prawo) i rośnie w dół grupy.</p>
+</section>
 
-    <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            <div class="col-12">
-                <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © 2022 Gang Rodrigueza SP 27 Lublin<br>EOEOOE 2137</p>
-            </div>
-        </div>
+<section id="EnergiaJonizacji">
+    <h2>Jak zmienia się energia jonizacji w układzie okresowym pierwiastków chemicznych?</h2>
+    <p>Energia jonizacji rośnie wzdłuż okresu (z lewej na prawo) i maleje w dół grupy.</p>
+</section>
+
+<section id="PodpowlokiElektronowe">
+    <h2>Co to są podpowłoki elektronowe?</h2>
+    <p>Podpowłoki elektronowe to grupy orbitali elektronowych o zbliżonych energiach i kształtach, takie jak s, p, d, f.</p>
+</section>
+
+<section id="KolejnoscObsadzania">
+    <h2>Jaka jest kolejność obsadzania podpowłok elektronowych?</h2>
+    <p>Kolejność to 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p.</p>
+</section>
+
+<section id="LiczbaElektronow">
+    <h2>Ile elektronów maksymalnie może wchodzić w skład każdej z powłok i w podpowłokach?</h2>
+    <p>Maksymalna liczba elektronów w powłoce oblicza się ze wzoru 2n^2, gdzie n to numer powłoki. Dla podpowłok s maksymalna liczba elektronów wynosi 2, dla p - 6, dla d - 10, dla f - 14.</p>
+</section>
+
+<section id="POMIDOREK">
+    <h2><a id="yessir" href="https://chat.openai.com/" target="_blank">Przydatne zdjecia</a></h2>
+    <p>
    
-  
+        <img src="1.png" width="1080" height="720">
+        <img src="2.png" width="1080" height="720">
+        <img src="3.png" width="1080" height="720">
+        <img src="4.png" width="1080" height="720">
+        <img src="5.png" width="1080" height="720">
+        <img src="6.png" width="1080" height="720">
+        <img src="7.png" width="1080" height="720">
+        <img src="8.png" width="1080" height="720">
+        <img src="9.png" width="1080" height="720">
+        <img src="10.png" width="1080" height="720">
+        <img src="11.png" width="1080" height="720">
+        <img src="12.png" width="1080" height="720">
+        <img src="14.png" width="1080" height="720">
+        <img src="15.png" width="1080" height="720">
+        <img src="16.png" width="1080" height="720">
+        <img src="17.png" width="1080" height="720">
+        <img src="18.png" width="1080" height="720">
+        <img src="19.png" width="1080" height="720">
+        <img src="20.png" width="1080" height="720">
+        <img src="21.png" width="1080" height="720">
+        <img src="22.png" width="1080" height="720">
+        <img src="23.png" width="1080" height="720">
+        <img src="24.png" width="1080" height="720">
+    </p>
+</section>
+
+<section id="uklad">
+    <h2 id="yessir"><a id="yessir" href="https://bard.google.com/chat" target="_blank">Uklad Pierwsiastkow</a></h2>
+    <p> <img src="uklad.png" width="1080" height="720"> </p>
+</section>
+
 </body>
+
 </html>
